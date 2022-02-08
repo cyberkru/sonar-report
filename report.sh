@@ -9,6 +9,7 @@ node ./index.js \
         --sonarorganization="$ORGANIZATION" \
         --sonarcomponent="$COMPONENTKEY" \
         --project="$COMPONENTKEY" \
+        --branch="$BRANCH" \
         --application="$COMPONENTKEY" \
         --release="1.0.0" \
         --sinceleakperiod="false" \
