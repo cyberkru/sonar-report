@@ -9,5 +9,6 @@ docker run -e SONARTOKEN='<sonar_key>' \
 	-e COMPONENTKEY='<project_id>' \
 	-e DOJOKEY='<dojo_apikey>' \
 	-e DOJOURL='<dojourl:port>' \
+	-e BRANCH='<branch>' \
 	-e PRODNAME='<dojoproduct_name>' cyberkru/sonar-report
 ```
